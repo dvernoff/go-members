@@ -101,6 +101,6 @@ func checkMemberDirect(c *gin.Context) {
 }
 
 func ready(s *discordgo.Session, event *discordgo.Ready) {
-	fmt.Printf("✅ Bot %s is ready!\n", event.User.Username)
+	fmt.Printf("Bot %s is ready!\n", event.User.Username)
 	botReady = true
 }
